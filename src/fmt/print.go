@@ -275,6 +275,10 @@ func Println(a ...interface{}) (n int, err error) {
 	return Fprintln(os.Stdout, a...)
 }
 
+func Jimao() {
+	println("这是我自定义的一个库函数")
+}
+
 // Sprintln formats using the default formats for its operands and returns the resulting string.
 // Spaces are always added between operands and a newline is appended.
 func Sprintln(a ...interface{}) string {
